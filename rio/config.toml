@@ -1,0 +1,55 @@
+# General
+padding-x = 20
+padding-y = [10, 30]
+
+# Appearence
+# https://github.com/raphamorim/rio-terminal-themes/tree/main
+theme = "Chalkboard"
+
+[cursor]
+shape = 'beam'
+
+[window]
+ width = 1000
+ height = 800
+ blur = true
+ opacity = 0.5
+
+[window.background-image]
+path = "/path/example/image.jpg"
+
+[fonts]
+size = 14
+[fonts.regular]
+family = "Cica"
+style = "Normal"
+weight = 400
+[fonts.bold]
+family = "Cica"
+style = "Normal"
+weight = 800
+[fonts.italic]
+family = "Cica"
+style = "Italic"
+weight = 400
+[fonts.bold-italic]
+family = "Cica"
+style = "Italic"
+weight = 800
+[fonts.emoji]
+family = "Cica"
+
+[navigation]
+ mode = "TopTab"
+ clickable = true
+ hide-if-single = true
+ use-split = true
+
+# Log level
+#
+# This property enables log level filter and file. The default level is "OFF" and the logs are not logged to a file as default.
+#
+# Example:
+# [developer]
+# log-level = "OFF"
+# enable-log-file = false

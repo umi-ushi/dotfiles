@@ -1,0 +1,12 @@
+abbr "reload"="source $XDG_CONFIG_HOME/zsh/.zshrc"
+
+abbr "d"="docker"
+abbr "dc"="docker compose"
+
+abbr "g"="git"
+
+abbr "zsh-abbr-conf"="idea $XDG_CONFIG_HOME/zsh/zsh-abbr/abbreviations"
+abbr "zshenv-conf"="idea $XDG_CONFIG_HOME/zsh/.zshenv"
+abbr "zshrc-conf"="idea $XDG_CONFIG_HOME/zsh/.zshrc"
+abbr "sheldon-conf"="idea $XDG_CONFIG_HOME/zsh/sheldon/plugins.toml"
+abbr "mise-conf"="idea $XDG_CONFIG_HOME/mise/config.toml"
